@@ -2,7 +2,7 @@ import { skills } from '../data'
 
 const Skills = () => {
   return (
-    <div className='p-3 max-w-7xl mx-auto' id='about'>
+    <div className='p-3 max-w-7xl mx-auto' id='skills'>
       <div className='px-6 mt-5 max-w-7xl '>
         <h2 className='text-4xl lg:text-6xl font-bold border-b-2 border-gray-500 dark:text-sky-500 dark:border-sky-500'>
           Skills

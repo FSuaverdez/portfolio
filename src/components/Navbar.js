@@ -2,6 +2,7 @@ import { BsFillSunFill } from 'react-icons/bs'
 
 const links = [
   { title: 'About Me', target: '#about' },
+  { title: 'Skills', target: '#skills' },
   { title: 'Projects', target: '#projects' },
 ]
 
@@ -10,7 +11,7 @@ const Navbar = ({ changeMode, darkMode }) => {
     <nav className='flex flex-col lg:flex-row lg:justify-between mt-10 justify-center items-center w-full  px-6 text-black dark:text-sky-400 '>
       <div className='flex flex-col lg:flex-row'>
         <a
-          href='/'
+          href='https://fsuaverdez.github.io/portfolio/'
           className='text-5xl transform transition-all hover:-translate-y-0.5 border-b-2 border-transparent hover:border-solid hover:border-b-2  active:translate-y-0.5  hover:border-sky-500 font-bold drop-shadow-lg  duration-75 ease-in-out inline-block  '
         >
           Frannz.Dev
