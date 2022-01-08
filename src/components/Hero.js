@@ -2,9 +2,9 @@ import headline from '../img/heading.png'
 import { FaSearch } from 'react-icons/fa'
 const Hero = () => {
   return (
-    <div className='flex flex-col-reverse items-center justify-center lg:flex-row lg:justify-between my-20 lg:mt-32 dark:text-white   px-6'>
+    <div className='flex flex-col-reverse items-center justify-center lg:flex-row lg:justify-between my-20 mt-5 lg:mt-32 dark:text-white   px-6'>
       <div>
-        <h1 className='font-bold text-5xl mt-20  lg:text-7xl lg:leading-normal text-center lg:text-left'>
+        <h1 className='font-bold text-5xl mt-5 lg:mt-20  lg:text-7xl lg:leading-normal text-center lg:text-left'>
           Hi! I’m Frannz,
           <br /> a Web Developer.
         </h1>
@@ -23,7 +23,7 @@ const Hero = () => {
       </div>
 
       <img
-        className='w-2/4 lg:w-2/5 lg:mb-10 animate-bounce-slow'
+        className='w-2/4 lg:w-2/5 lg:mb-10 md:mt-10 animate-bounce-slow hidden md:block'
         src={headline}
         alt='computer'
       />
