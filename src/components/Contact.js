@@ -9,11 +9,13 @@ const Contact = () => {
   const [message, setMessage] = useState('')
   const [error, setError] = useState(false)
   const [success, setSuccess] = useState(false)
+  const [loading, setLoading] = useState(false)
 
   const sendEmail = e => {
     e.preventDefault()
 
     if (name && email && message) {
+      setLoading(true)
       emailjs
         .sendForm(
           process.env.REACT_APP_SERVICE_ID,
@@ -26,13 +28,22 @@ const Contact = () => {
             console.log(result.text)
             setError(false)
             setSuccess(true)
+            setLoading(false)
           },
           error => {
             console.log(error.text)
             setError(true)
             setSuccess(false)
+            setLoading(false)
           }
         )
+
+      setTimeout(() => {
+        setSuccess(false)
+        setName('')
+        setEmail('')
+        setMessage('')
+      }, 3000)
     }
   }
   return (
@@ -85,12 +96,14 @@ const Contact = () => {
         >
           <div className='text-center'>
             {error && (
-              <p className='text-red-500 py-3'>
+              <p className='bg-red-400  py-3 font-bold text-black w-fit mx-auto p-5 rounded-full'>
                 Error occured. Please reload the page and try again.
               </p>
             )}
             {success && (
-              <p className='text-green-500 py-3'>Message Sent Successfully!</p>
+              <p className='bg-green-400  py-3 font-bold text-black w-fit mx-auto p-5 rounded-full'>
+                Message Sent Successfully!
+              </p>
             )}
           </div>
           <label htmlFor='name' className='font-bold mt-4 inline-block'>
@@ -127,8 +140,9 @@ const Contact = () => {
           />
           <div className='text-center'>
             <button
-              className=' bg-sky-500 text-white font-bold rounded-full px-5 py-2'
+              className=' bg-sky-500 text-white font-bold rounded-full px-5 py-2 disabled:bg-sky-200 disabled:cursor-not-allowed'
               type='submit'
+              disabled={success || loading}
             >
               Submit
             </button>
