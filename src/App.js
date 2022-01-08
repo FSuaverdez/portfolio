@@ -1,7 +1,8 @@
 import { useState } from 'react'
 import Hero from './components/Hero'
 import Navbar from './components/Navbar'
-import Projects from './components/Projects'
+import About from './components/About'
+import Skills from './components/Skills'
 
 const App = () => {
   const [darkMode, setDarkMode] = useState(false)
@@ -11,14 +12,15 @@ const App = () => {
   }
 
   return (
-    <div className={`${darkMode && 'dark bg-black'}`}>
+    <div className={`${darkMode ? 'dark bg-black' : 'bg-gray-50'}`}>
       <div className={`${darkMode ? 'bg-dark ' : 'bg-light'} h-screen `}>
         <div className='p-3 max-w-7xl mx-auto'>
           <Navbar changeMode={changeMode} darkMopde={darkMode} />
           <Hero />
         </div>
       </div>
-      <Projects />
+      <About />
+      <Skills />
     </div>
   )
 }

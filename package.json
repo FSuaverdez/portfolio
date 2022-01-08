@@ -2,7 +2,7 @@
   "name": "portfolio-frannz",
   "version": "0.1.0",
   "private": true,
-  "homepage": "fsuaverdez.github.io/portfolio",
+  "homepage": "https://fsuaverdez.github.io/portfolio/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^12.0.0",
