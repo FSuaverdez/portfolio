@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import emailjs, { init } from '@emailjs/browser'
+import { AiFillLinkedin, AiFillGithub, AiFillMail } from 'react-icons/ai'
 
 const Contact = () => {
   init(process.env.REACT_APP_USER_ID)
@@ -43,10 +44,45 @@ const Contact = () => {
         >
           Contact Me
         </h2>
-        <p className='text-lg md:text-2xl lg:text-3xl mt-5 lg:mt-10 dark:text-white'>
+        <p className='text-lg md:text-xl lg:text-2xl mt-2  dark:text-white'>
           Feel free to contact me!
         </p>
-        <form onSubmit={sendEmail} className='text-lg max-w-4xl mx-auto'>
+        <div className='flex flex-wrap mt-3 items-center gap-5 py-4'>
+          <h3 className='text-3xl dark:text-white'>Socials:</h3>
+          <ul className='flex items-center justify-center gap-4'>
+            <li>
+              <a
+                href='https://www.linkedin.com/in/fsuaverdez/'
+                rel='noreferrer'
+                target='_blank'
+              >
+                <AiFillLinkedin className='text-4xl text-sky-400' />
+              </a>
+            </li>
+            <li>
+              <a
+                href='https://www.linkedin.com/in/fsuaverdez/'
+                rel='noreferrer'
+                target='_blank'
+              >
+                <AiFillGithub className='text-4xl text-gray-900 dark:text-gray-300' />
+              </a>
+            </li>
+            <li>
+              <a
+                href='mailto: sfrannz@gmail.com'
+                rel='noreferrer'
+                target='_blank'
+              >
+                <AiFillMail className='text-4xl text-red-600' />
+              </a>
+            </li>
+          </ul>
+        </div>
+        <form
+          onSubmit={sendEmail}
+          className='text-lg max-w-4xl mx-auto dark:text-white'
+        >
           <div className='text-center'>
             {error && (
               <p className='text-red-500 py-3'>

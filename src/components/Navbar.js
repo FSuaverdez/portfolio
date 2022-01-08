@@ -1,4 +1,5 @@
 import { BsFillSunFill } from 'react-icons/bs'
+import resume from '../resume-frannz.pdf'
 
 const links = [
   { title: 'About Me', target: '#about' },
@@ -27,6 +28,15 @@ const Navbar = ({ changeMode, darkMode }) => {
               </a>
             </li>
           ))}
+          <li>
+            <a
+              href={resume}
+              className='outline-none transform transition-all hover:-translate-y-0.5 border-b-2 border-transparent hover:border-solid hover:border-b-2  active:translate-y-0.5  hover:border-sky-500 font-bold drop-shadow-lg  duration-75 ease-in-out inline-block'
+              download
+            >
+              Resume
+            </a>
+          </li>
         </ul>
       </div>
       <div className='mt-4 lg:mt-0  flex flex-col-reverse items-center justify-center lg:flex-row lg:items-end-end text-xl'>

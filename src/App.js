@@ -15,11 +15,7 @@ const App = () => {
 
   return (
     <div className={`${darkMode ? 'dark bg-black' : 'bg-gray-100'}`}>
-      <div
-        className={`${
-          darkMode ? 'bg-dark ' : 'bg-light'
-        } lg:h-full xl:h-screen `}
-      >
+      <div className={`${darkMode ? 'bg-dark ' : 'bg-light'} lg:h-full  `}>
         <div className='p-3 max-w-7xl mx-auto'>
           <Navbar changeMode={changeMode} darkMopde={darkMode} />
           <Hero />
