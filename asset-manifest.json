@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/fsuaverdez.github.io/static/css/main.a001292c.css",
+    "main.js": "/fsuaverdez.github.io/static/js/main.3b3d796f.js",
+    "static/media/heading.png": "/fsuaverdez.github.io/static/media/heading.9f1682334e5021f4173f.png",
+    "index.html": "/fsuaverdez.github.io/index.html",
+    "main.a001292c.css.map": "/fsuaverdez.github.io/static/css/main.a001292c.css.map",
+    "main.3b3d796f.js.map": "/fsuaverdez.github.io/static/js/main.3b3d796f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a001292c.css",
+    "static/js/main.3b3d796f.js"
+  ]
+}
