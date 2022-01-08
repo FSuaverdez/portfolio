@@ -61,7 +61,7 @@ const Contact = () => {
             </li>
             <li>
               <a
-                href='https://www.linkedin.com/in/fsuaverdez/'
+                href='https://github.com/FSuaverdez'
                 rel='noreferrer'
                 target='_blank'
               >
