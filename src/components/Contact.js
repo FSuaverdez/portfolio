@@ -47,7 +47,7 @@ const Contact = () => {
     }
   }
   return (
-    <div className='p-3 max-w-7xl mx-auto pb-10' id='about'>
+    <div className='p-3 max-w-7xl mx-auto pb-10' id='contact'>
       <div className='px-6 mt-5 max-w-7xl '>
         <h2
           id='contact'
@@ -112,7 +112,7 @@ const Contact = () => {
           <input
             value={name}
             onChange={e => setName(e.target.value)}
-            className='w-full p-3'
+            className='w-full p-3 dark:text-black'
             type='text'
             id='name'
             name='name'
@@ -123,7 +123,7 @@ const Contact = () => {
           <input
             value={email}
             onChange={e => setEmail(e.target.value)}
-            className='w-full p-3'
+            className='w-full p-3 dark:text-black'
             type='email'
             id='email'
             name='email'
@@ -134,7 +134,7 @@ const Contact = () => {
           <textarea
             value={message}
             onChange={e => setMessage(e.target.value)}
-            className='w-full p-3 h-40 resize-none'
+            className='w-full p-3 h-40 resize-none dark:text-black'
             id='message'
             name='message'
           />
@@ -144,7 +144,7 @@ const Contact = () => {
               type='submit'
               disabled={success || loading}
             >
-              Submit
+              {loading ? 'Sending..' : 'Submit'}
             </button>
           </div>
         </form>

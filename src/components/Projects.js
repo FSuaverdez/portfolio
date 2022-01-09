@@ -3,7 +3,7 @@ import { FiSearch } from 'react-icons/fi'
 import { projects } from '../data'
 const Projects = () => {
   return (
-    <div className='p-3 max-w-7xl mx-auto' id='about'>
+    <div className='p-3 max-w-7xl mx-auto' id='projects'>
       <div className='px-6 mt-5 max-w-7xl '>
         <h2
           id='projects'
