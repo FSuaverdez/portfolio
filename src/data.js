@@ -9,9 +9,19 @@ import {
   DiJava,
   DiPhp,
   DiMysql,
-} from 'react-icons/di'
+  DiCss3,
+} from 'react-icons/di';
 
 export const projects = [
+  {
+    title: 'GetSeatGo',
+    description:
+      'Movie ticket reservation web application that helps a cinema sell seat tickets online using paypal payment method.',
+    techs: ['Node.js', 'EJS', 'Mongodb'],
+    github: 'https://github.com/FSuaverdez/GetSeatGo',
+    live: 'https://get-seat-go.herokuapp.com/',
+    image: 'https://i.imgur.com/LXSas3Z.png',
+  },
   {
     title: 'GameShop',
     description:
@@ -19,6 +29,7 @@ export const projects = [
     techs: ['MongoDB', 'Express.js', 'React.js', 'Node.js'],
     github: 'https://github.com/FSuaverdez/GameShop',
     live: null,
+    image: 'https://i.imgur.com/qU7EDXl.png',
   },
   {
     title: 'Google Clone',
@@ -27,14 +38,7 @@ export const projects = [
     techs: ['React.js', 'RapidAPI'],
     github: 'https://github.com/FSuaverdez/google-clone',
     live: 'https://fsuaverdez.github.io/google-clone/#/search',
-  },
-  {
-    title: 'GetSeatGo',
-    description:
-      'Movie ticket reservation web application that helps a cinema sell seat tickets online using paypal payment method.',
-    techs: ['Node.js', 'EJS', 'Mongodb'],
-    github: 'https://github.com/FSuaverdez/GetSeatGo',
-    live: null,
+    image: 'https://i.imgur.com/UvvOTFr.jpg',
   },
   {
     title: 'GameHunt',
@@ -43,8 +47,9 @@ export const projects = [
     techs: ['React Native', 'RAWG API'],
     github: 'https://github.com/FSuaverdez/GameHunt',
     live: null,
+    image: 'https://i.imgur.com/15QHvmh.png',
   },
-]
+];
 
 export const skills = [
   {
@@ -54,6 +59,10 @@ export const skills = [
   {
     component: <DiHtml5 className='text-red-500 text-4xl' />,
     title: 'HTML',
+  },
+  {
+    component: <DiCss3 className='text-blue-500 text-4xl' />,
+    title: 'CSS',
   },
   {
     component: <DiReact className='text-cyan-500 text-4xl' />,
@@ -91,4 +100,4 @@ export const skills = [
     component: <DiMysql className='text-blue-500 text-4xl' />,
     title: 'MySQL',
   },
-]
+];

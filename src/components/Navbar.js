@@ -1,11 +1,11 @@
-import { BsFillSunFill } from 'react-icons/bs'
-import resume from '../resume-frannz.pdf'
+import { BsFillSunFill } from 'react-icons/bs';
+import resume from '../resume-frannz.pdf';
 
 const links = [
   { title: 'About Me', target: '#about' },
   { title: 'Skills', target: '#skills' },
   { title: 'Projects', target: '#projects' },
-]
+];
 
 const Navbar = ({ changeMode, darkMode }) => {
   return (
@@ -13,7 +13,7 @@ const Navbar = ({ changeMode, darkMode }) => {
       <div className='flex flex-col lg:flex-row'>
         <a
           href='https://fsuaverdez.github.io/portfolio/'
-          className='text-5xl transform transition-all hover:-translate-y-0.5 border-b-2 border-transparent hover:border-solid hover:border-b-2  active:translate-y-0.5  hover:border-sky-500 font-bold drop-shadow-lg  duration-75 ease-in-out inline-block  '
+          className='text-5xl border-b-2 border-transparent hover:border-solid hover:border-b-2  active:translate-y-0.5  hover:border-sky-500 font-bold drop-shadow-lg  duration-75 ease-in-out inline-block  '
         >
           Frannz.Dev
         </a>
@@ -54,7 +54,7 @@ const Navbar = ({ changeMode, darkMode }) => {
         </a>
       </div>
     </nav>
-  )
-}
+  );
+};
 
-export default Navbar
+export default Navbar;
