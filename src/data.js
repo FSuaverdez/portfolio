@@ -12,6 +12,8 @@ import {
   DiCss3,
 } from 'react-icons/di';
 
+import { SiRedux } from 'react-icons/si';
+
 export const projects = [
   {
     title: 'GetSeatGo',
@@ -71,6 +73,10 @@ export const skills = [
   {
     component: <DiNodejsSmall className='text-green-500 text-4xl' />,
     title: 'Node.JS',
+  },
+  {
+    component: <SiRedux className='text-[#764abc] text-4xl' />,
+    title: 'Redux',
   },
   {
     component: <DiReact className='text-cyan-500 text-4xl' />,
