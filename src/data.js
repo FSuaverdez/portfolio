@@ -41,6 +41,15 @@ export const projects = [
         image: 'https://i.imgur.com/LXSas3Z.png',
     },
     {
+        title: 'Personal Portfolio',
+        description:
+            'Personal portfolio to showcase information about me such as skills and contact informations.',
+        techs: ['React.js', 'Tailwind CSS'],
+        github: 'https://github.com/FSuaverdez/portfolio',
+        live: 'https://fsuaverdez.github.io/portfolio/',
+        image: 'https://i.imgur.com/wu32HoX.png',
+    },
+    {
         title: 'GameShop',
         description:
             'E-commerce web application that aims to sell gaming products like games and gaming peripherals.',

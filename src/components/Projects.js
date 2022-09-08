@@ -31,7 +31,7 @@ const Projects = () => {
                                 <img
                                     src={image}
                                     alt='thumbnail'
-                                    className='w-full h-60 object-cover object-left-top'
+                                    className='w-full h-60 object-cover object-center'
                                 />
                                 <h3 className='text-3xl font-bold text-sky-600'>
                                     {title}
