@@ -27,7 +27,7 @@ export const projects = [
             'TailwindCSS',
             'Redux Toolkit',
         ],
-        github: 'https://github.com/FSuaverdez/GetSeatGo',
+        github: 'https://github.com/FSuaverdez/tup-newsletter',
         live: 'https://tup-newsletter.vercel.app/',
         image: 'https://i.imgur.com/f4AA5VP.png',
     },
@@ -36,7 +36,7 @@ export const projects = [
         description:
             'Movie ticket reservation web application that helps a cinema sell seat tickets online using paypal payment method.',
         techs: ['Node.js', 'EJS', 'Mongodb'],
-        github: 'https://github.com/FSuaverdez/tup-newsletter',
+        github: 'https://github.com/FSuaverdez/GetSeatGo',
         live: 'https://get-seat-go.herokuapp.com/',
         image: 'https://i.imgur.com/LXSas3Z.png',
     },
