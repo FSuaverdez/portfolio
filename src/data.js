@@ -28,7 +28,6 @@ export const projects = [
             'Redux Toolkit',
         ],
         github: 'https://github.com/FSuaverdez/tup-newsletter',
-        live: 'https://tup-newsletter.vercel.app/',
         image: 'https://i.imgur.com/f4AA5VP.png',
     },
     {
