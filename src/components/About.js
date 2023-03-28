@@ -6,9 +6,7 @@ const About = () => {
           About Me
         </h2>
         <p className='text-lg md:text-2xl lg:text-3xl mt-5 lg:mt-10 dark:text-white'>
-          Aspiring Full-Stack developer that loves and enjoys learning new
-          skills and use it to create fun and exciting projects. Most knowledge
-          are Web Development
+        I'm a full-stack developer who loves learning new skills and creating exciting projects. With a strong background in web development, I'm well-versed in the latest front-end and back-end technologies and frameworks. I take pride in delivering clean, efficient, and well-documented code, and I'm committed to producing high-quality results that exceed my clients' expectations.
         </p>
       </div>
     </div>
