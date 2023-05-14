@@ -6,11 +6,12 @@ import {
   DiGit,
   DiGithubBadge,
   DiMongodb,
-  DiJava,
   DiPhp,
   DiMysql,
   DiCss3,
 } from "react-icons/di";
+
+import { SiTailwindcss } from "react-icons/si";
 
 import { SiNextdotjs, SiTypescript } from "react-icons/si";
 
@@ -38,7 +39,6 @@ export const projects = [
       "Movie ticket reservation web application that helps a cinema sell seat tickets online using paypal payment method.",
     techs: ["Node.js", "EJS", "Mongodb"],
     github: "https://github.com/FSuaverdez/GetSeatGo",
-    live: "https://get-seat-go.herokuapp.com/",
     image: "https://i.imgur.com/LXSas3Z.png",
   },
   {
@@ -65,7 +65,6 @@ export const projects = [
       "A google clone web application that uses RapidAPI to search google results and present it to the user.",
     techs: ["React.js", "RapidAPI"],
     github: "https://github.com/FSuaverdez/google-clone",
-    live: "https://fsuaverdez.github.io/google-clone/#/search",
     image: "https://i.imgur.com/UvvOTFr.jpg",
   },
   {
@@ -99,6 +98,10 @@ export const skills = [
   {
     component: <SiTypescript className="text-blue-500 text-3xl" />,
     title: "TypeScript",
+  },
+  {
+    component: <SiTailwindcss className="text-[#01b7d6] text-3xl" />,
+    title: "TailwindCSS",
   },
   {
     component: <DiHtml5 className="text-red-500 text-4xl" />,
