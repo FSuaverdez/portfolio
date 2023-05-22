@@ -92,12 +92,12 @@ export const skills = [
     title: "Next.JS",
   },
   {
-    component: <DiNodejsSmall className="text-green-500 text-4xl" />,
-    title: "Node.JS",
-  },
-  {
     component: <SiTypescript className="text-blue-500 text-3xl" />,
     title: "TypeScript",
+  },
+  {
+    component: <DiNodejsSmall className="text-green-500 text-4xl" />,
+    title: "Node.JS",
   },
   {
     component: <SiTailwindcss className="text-[#01b7d6] text-3xl" />,

@@ -11,7 +11,7 @@ const Skills = () => {
           {skills.map((skill) => (
             <div
               key={skill.title}
-              className="rounded-lg transform hover:-translate-y-0.5 bg-white p-3 shadow-xl text-center mx-auto flex flex-col justify-center items-center duration-75 ease-in-out hover:shadow-2xl w-28 h-28 hover:dark:shadow-sky-500"
+              className="rounded-lg transform hover:-translate-y-0.5 bg-white p-3 shadow-xl text-center mx-auto flex flex-col justify-center items-center duration-75 ease-in-out hover:shadow-2xl w-28 h-28 hover:dark:shadow-sky-500 dark:bg-gray-200"
             >
               {skill.component}
               <p className="font-bold mt-3">{skill.title}</p>

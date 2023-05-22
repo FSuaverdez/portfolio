@@ -113,7 +113,7 @@ const Contact = () => {
           <input
             value={name}
             onChange={(e) => setName(e.target.value)}
-            className="w-full p-3 dark:text-black"
+            className="w-full p-3 dark:text-black dark:bg-gray-200 rounded-lg focus:outline focus:outline-[3px] outline-sky-500"
             type="text"
             id="name"
             name="name"
@@ -124,7 +124,7 @@ const Contact = () => {
           <input
             value={email}
             onChange={(e) => setEmail(e.target.value)}
-            className="w-full p-3 dark:text-black"
+            className="w-full p-3 dark:text-black dark:bg-gray-200 rounded-lg focus:outline focus:outline-[3px] outline-sky-500"
             type="email"
             id="email"
             name="email"
@@ -135,7 +135,7 @@ const Contact = () => {
           <textarea
             value={message}
             onChange={(e) => setMessage(e.target.value)}
-            className="w-full p-3 h-40 resize-none dark:text-black"
+            className="w-full p-3 h-40 resize-none dark:text-black dark:bg-gray-200 rounded-lg focus:outline focus:outline-[3px] outline-sky-500"
             id="message"
             name="message"
           />
