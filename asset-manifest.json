@@ -1,15 +1,14 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.baa1b8f4.css",
-    "main.js": "/portfolio/static/js/main.5f48d782.js",
-    "static/media/resume-frannz.pdf": "/portfolio/static/media/resume-frannz.4147b2ead8b8571ab88a.pdf",
+    "main.js": "/portfolio/static/js/main.411acd0a.js",
     "static/media/heading.png": "/portfolio/static/media/heading.9f1682334e5021f4173f.png",
     "index.html": "/portfolio/index.html",
     "main.baa1b8f4.css.map": "/portfolio/static/css/main.baa1b8f4.css.map",
-    "main.5f48d782.js.map": "/portfolio/static/js/main.5f48d782.js.map"
+    "main.411acd0a.js.map": "/portfolio/static/js/main.411acd0a.js.map"
   },
   "entrypoints": [
     "static/css/main.baa1b8f4.css",
-    "static/js/main.5f48d782.js"
+    "static/js/main.411acd0a.js"
   ]
 }
