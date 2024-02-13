@@ -22,34 +22,19 @@ export const projects = [
     title: "TUP Newsletter",
     description:
       "TUP Newsletteris a capstone project that aims to provide that latest news and updates to the students of Techonological University of the Philippines",
-    techs: [
-      "Node.js",
-      "React.js",
-      "Express.js",
-      "Mongodb",
-      "TailwindCSS",
-      "Redux Toolkit",
-    ],
+    techs: ["MERN Stack", "TailwindCSS", "Redux Toolkit"],
     github: "https://github.com/FSuaverdez/tup-newsletter",
     image: "https://i.imgur.com/f4AA5VP.png",
   },
   {
     title: "GetSeatGo",
     description:
-      "Movie ticket reservation web application that helps a cinema sell seat tickets online using paypal payment method.",
+      "Movie ticket reservation web application that helps a cinema sell seat tickets online using paypal payment method. Customers can select the specific seats that will make them comfortable.",
     techs: ["Node.js", "EJS", "Mongodb"],
     github: "https://github.com/FSuaverdez/GetSeatGo",
     image: "https://i.imgur.com/LXSas3Z.png",
   },
-  {
-    title: "Personal Portfolio",
-    description:
-      "Personal portfolio to showcase information about me such as skills and contact informations.",
-    techs: ["React.js", "Tailwind CSS"],
-    github: "https://github.com/FSuaverdez/portfolio",
-    live: "https://fsuaverdez.github.io/portfolio/",
-    image: "https://i.imgur.com/wu32HoX.png",
-  },
+
   {
     title: "GameShop",
     description:
