@@ -118,10 +118,6 @@ export const skills = [
     title: "MongoDB",
   },
   {
-    component: <DiPhp className="text-blue-500 text-4xl" />,
-    title: "PHP",
-  },
-  {
     component: <DiMysql className="text-blue-500 text-4xl" />,
     title: "MySQL",
   },
