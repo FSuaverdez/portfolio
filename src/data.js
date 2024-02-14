@@ -6,7 +6,6 @@ import {
   DiGit,
   DiGithubBadge,
   DiMongodb,
-  DiPhp,
   DiMysql,
   DiCss3,
 } from "react-icons/di";
@@ -25,6 +24,15 @@ export const projects = [
     techs: ["MERN Stack", "TailwindCSS", "Redux Toolkit"],
     github: "https://github.com/FSuaverdez/tup-newsletter",
     image: "https://i.imgur.com/f4AA5VP.png",
+  },
+  {
+    title: "Tic Tac Toe",
+    description:
+      "A simple tic tac toe game that uses Zustand for state management. It's a simple game that can be played by two players. Players can play multiple rounds and see the overall score if they end the game.",
+    techs: ["React.js", "TailwindCSS", "Zustand"],
+    github: "https://github.com/FSuaverdez/tic-tac-toe",
+    image: "https://i.imgur.com/1ViUN3m.jpeg",
+    live: "https://tic-tac-toe-sable-two.vercel.app/",
   },
   {
     title: "GetSeatGo",
