@@ -18,12 +18,13 @@ import { SiRedux } from "react-icons/si";
 
 export const projects = [
   {
-    title: "TUP Newsletter",
+    title: "GameHunt",
     description:
-      "TUP Newsletteris a capstone project that aims to provide that latest news and updates to the students of Techonological University of the Philippines",
-    techs: ["MERN Stack", "TailwindCSS", "Redux Toolkit"],
-    github: "https://github.com/FSuaverdez/tup-newsletter",
-    image: "https://i.imgur.com/f4AA5VP.png",
+      "GameHunt is a website that allows you to search for games, find trending games, and see the top games of all time. Explore the gaming world with GameHunt.",
+    techs: ["Next.js", "React.js", "TailwindCSS", "Server Components"],
+    github: "https://github.com/FSuaverdez/game-hunt",
+    image: "https://i.imgur.com/iXAVL80.png",
+    live: "https://game-hunt-kappa.vercel.app/",
   },
   {
     title: "Tic Tac Toe",
@@ -33,6 +34,14 @@ export const projects = [
     github: "https://github.com/FSuaverdez/tic-tac-toe",
     image: "https://i.imgur.com/1ViUN3m.jpeg",
     live: "https://tic-tac-toe-sable-two.vercel.app/",
+  },
+  {
+    title: "TUP Newsletter",
+    description:
+      "TUP Newsletter is a capstone project that aims to provide that latest news and updates to the students of Techonological University of the Philippines.",
+    techs: ["MERN Stack", "TailwindCSS", "Redux Toolkit"],
+    github: "https://github.com/FSuaverdez/tup-newsletter",
+    image: "https://i.imgur.com/f4AA5VP.png",
   },
   {
     title: "GetSeatGo",
@@ -59,15 +68,6 @@ export const projects = [
     techs: ["React.js", "RapidAPI"],
     github: "https://github.com/FSuaverdez/google-clone",
     image: "https://i.imgur.com/UvvOTFr.jpg",
-  },
-  {
-    title: "GameHunt",
-    description:
-      "A React Native application that finds the latest and trending video games and providing description of the game with the help of RAWG ",
-    techs: ["React Native", "RAWG API"],
-    github: "https://github.com/FSuaverdez/GameHunt",
-    live: null,
-    image: "https://i.imgur.com/15QHvmh.png",
   },
 ];
 
